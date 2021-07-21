@@ -3,8 +3,8 @@ create database gaia_sustentavel;
 
 use gaia_sustentavel;
 
-insert into users (name, email) values
-	("Joana Silva", "joanasilva@email.com");    
+insert into users (name, email, password) values
+	("Joana Silva", "joanasilva@email.com", "");
 insert into stores (name_store, location, category_id, description, criacao, image, user_id) values
 	("Loja Orgânica", "São Paulo", 1, "Mãe e filha criaram, em 2019, a Loja Orgânica com o objetivo de produzir sabonetes e xampus naturais e veganos, valorizando os ingredientes nacionais.", "2019-03-01", "loja-organica.jpg", 1);
 insert into products (name, price, description, composition, store_id, category_id, subcategory_id, img_product) values
@@ -14,8 +14,8 @@ insert into products (name, price, description, composition, store_id, category_
     ("Xampu em barra detox", 20.00, "Xampu em barra que não agride os fios. Produto 100% feito à mão, natural e vegetal. Elaborado com as técnicas milenares de saboaria e cosmetologia com manteigas, óleos vegetais e óleos essenciais. Feito para todos os tipos de cabelo.", "Olea Europaea (Olive) Fruit Oil (Azeite), Orbignya Oleifera Seed Oil (Babaçu), Aqua, Ricinus Communis Seed Oil (Óleo de Mamona), Sodium Hydroxide, Prunus Amygdalus Dulcis Oil (Amêndoa), Hydrogenated Hydrogenated Jojoba Oil, Litsea Cubeba Fruit Oil (oe Litsea), Guar hydroxypropyltrimonium chloride, Copernicia Cerifera Wax (Cera de Carnaúba), Rosmarinus Officinalis Oil (oe Alecrim), Citric Acid, Benzyl Alcohol, Xylitol, Caprylic Acid, Tocopheryl Acetate (Vit E) e Rosmarinus officinalis extract.", 1, 1, 1, "xampu-vegano.jpg"),
     ("Xampu em barra de arjan e ojon", 20.00, "Xampu em barra que não agride os fios. Produto 100% feito à mão, natural e vegetal. Elaborado com as técnicas milenares de saboaria e cosmetologia com manteigas, óleos vegetais e óleos essenciais. Feito para todos os tipos de cabelo.", "Aqua, Elaeis Guineensis (Palm) Kernel Oil, Olea Europaea (Olive) Fruit Oil (Azeite), Sodium Hydroxide, Ricinus Communis Seed Oil (Óleo de Mamona), Hydrogenated Jojoba Oil, Theobroma Cacao Seed Butter (Manteiga de Cacau), Theobroma Grandiflorum Seed Butter (Manteiga de Cupuaçu), Vitis Vinifera Seed Oil (Óleo de Semente de Uva), Persea Gratissima oil (Óleo de Abacate), Elaeis Oleifera Kernel Oil (Ojon), Litsea CubebaFruit Oil (oe Litsea), Parfum (Patchouli), Aloe Barbadensis Leaf Juice (Aoe Vera), Copernicia Cerifera Wax (Cera de Carnaúba), Citric Acid, Benzyl Alcohol, Xylitol, Caprylic Acid, Argania Spinosa Kernel Oil (Óleo de Argan), Pogostemon Cablin Oil (oe Patchouli), Tocopheryl Acetate (Vit E) e Rosmarinus officinalis extract.", 1, 1, 1, "xampu-natural.jpg");
     
-insert into users (name, email) values
-    ("Maria Souza", "mariasouza@email.com");
+insert into users (name, email, password) values
+    ("Maria Souza", "mariasouza@email.com", "");
 insert into stores (name_store, location, category_id, description, criacao, image, user_id) values
 	("Loja Verde", "Guarulhos", 1, "A Loja Verde oferece grande quantidade de produtos de higiene pessoal naturais, mostrando que é possível se cuidar e cuidar do meio ambiente ao mesmo tempo,", "2018-11-03", "loja-verde.jpg", 2);
 insert into products (name, price, description, composition, store_id, category_id, subcategory_id, img_product) values
@@ -23,8 +23,8 @@ insert into products (name, price, description, composition, store_id, category_
     ("Escova de dente de bambu", 17.00, "Escova de dente de bambu com cerdas de nylon. A escova é 95% biodegradável e as cerdas são feitas de nylon, livres de BPA e outras toxinas. Feita em madeira de bambu é naturalmente anti-bacteriana. Um produto de qualidade, higiênico e resistente, suave e leve ao mesmo tempo. É um material naturalmente sustentável.", "95% bambu e 5% nylon.", 2, 1, 5, "escova-bambu.jpg"),
     ("Creme dental de jambú", 29.00, "Sem flúor e prático para carregar no bolso, previne cáries, gengivite, clareia os dentes naturalmente, alcaliniza boca. É refrescante! Usado também como antisséptico bucal. É biodegradável, vegano, ou seja, sem ingredientes de origem animal.", "Argila branca, casca de juá, jambú, canela, cravo da índia, berinjela e gengibre, óleos essenciais de menta verde e de cravo.", 2, 1, 5, "pasta-dental-natural.jpg");
 
-insert into users (name, email) values
-    ("Silvia Machado", "silviamachado@email.com");
+insert into users (name, email, password) values
+    ("Silvia Machado", "silviamachado@email.com", "");
 insert into stores (name_store, location, category_id, description, criacao, image, user_id) values
     ("Loja Equilibrio", "Belo Horizonte", 1, "Criando desde 2015 cosméticos veganos e com ingredientes nacionais, valorizando o comércio local.", "2015-10-20", "loja-equilibrio.jpg", 3);
 insert into products (name, price, description, composition, store_id, category_id, subcategory_id, img_product) values
@@ -33,8 +33,8 @@ insert into products (name, price, description, composition, store_id, category_
     ("Manteiga de cacau", 20.00, "Hidratante labial 100% natural, vegano e biodegradável, livre de petrolatos, silicones, corantes e fragrâncias artificiais. Composto por ingredientes que ajudam a manter lábios sempre hidratados e nutridos. Contém ainda óleo essencial de menta, que traz uma sensação de frescor, e um delicioso aroma doce de chocolate com menta. Indicação: para hidratação dos lábios, das cutículas e áreas ressecadas do corpo.", "Manteiga de Cacau. Manteiga de Karité. Cera de Carnaúba. Óleo de Castanha do Pará. Óleo Essencial de Menta. Óleo Essencial de Laranja. Fórmula livre de: parabenos, propilenoglicol, óleo mineral, silicones, vaselina, triclosan, corantes e fragrâncias artificiais.", 3, 1, 3, "manteiga-cacau.jpg"),
 	("Serum facial", 50.00, "Composto por 7 ingredientes altamente nutritivos que hidratam profundamente a pele, prevenindo o envelhecimento cutâneo. Com a sua fórmula 100% natural é um ótimo complemento para os cuidados diários, pois além de hidratar e revitalizar, também atua como firmador da pele.", "Aloe Vera. Calêndula. Camomila. Coco. Hamamélis. Sodium PCA. Trigo.", 3, 1, 2, "oleo-serum.jpg");
     
-insert into users (name, email) values
-	("José Almeida", "josealmeida@email.com");
+insert into users (name, email, password) values
+	("José Almeida", "josealmeida@email.com", "");
 insert into stores (name_store, location, category_id, description, criacao, image, user_id) values
 	("Loja Limpeza Profunda", "São Sebastião", 2, "A Loja Limpeza Profunda oferece os melhores produtos de limpeza doméstica biodegradáveis e naturais, em embalagens sem plástico e sem químicos que agridem o meio ambiente e a sua família.", "2017-04-30", "loja-limpeza.jpg", 4);
 insert into products (name, price, description, composition, store_id, category_id, subcategory_id, img_product) values
